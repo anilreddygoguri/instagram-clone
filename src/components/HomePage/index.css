@@ -1,0 +1,26 @@
+.home-page-bg-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+}
+.nav-content {
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+}
+.stories-posts-container {
+  min-width: 85%;
+}
+@media screen and (max-width: 738px) {
+  .home-page-bg-container {
+    flex-direction: column;
+  }
+  .nav-content {
+    order: 1;
+  }
+  .stories-posts-container {
+    width: 100%;
+    order: 0;
+  }
+}

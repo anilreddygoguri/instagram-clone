@@ -1,0 +1,180 @@
+.login-form-bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1170px;
+  margin: auto;
+}
+@media screen and (min-width: 768px) {
+  .login-form-bg-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+.login-left-right-containers {
+  display: flex;
+}
+.login-left-container {
+  height: 100vh;
+}
+.login-image {
+  display: none;
+  height: 100%;
+}
+
+@media screen and (min-width: 911px) {
+  .login-image {
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    min-height: 470px;
+    margin-right: 20px;
+  }
+}
+.login-right-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  border: 1px solid #dbdbdb;
+  max-width: 260px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 992px) {
+  .form-container {
+    padding: 0px 48 0px 48px;
+  }
+}
+.website-logo {
+  width: 175px;
+}
+.username-input-field {
+  font-size: 12px;
+  width: 100%;
+  height: 20px;
+  border: 1px solid #dbdbdb;
+  background-color: #fafafa;
+  color: #64748b;
+  border-radius: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+}
+
+.password-input-field {
+  font-size: 12px;
+  width: 100%;
+  height: 20px;
+  border: 1px solid #dbdbdb;
+  background-color: #fafafa;
+  color: #64748b;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+}
+
+.login-button {
+  font-size: 14px;
+  color: #ffffff;
+  height: 32px;
+  width: 100%;
+  margin-top: 18px;
+  margin-bottom: 2px;
+  background-color: #0096ff;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.error-message {
+  align-self: start;
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  color: #ef4444;
+}
+
+.login-or-dividor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}
+.or-text {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.login-dividor {
+  width: 80px;
+  border-bottom: 2px solid #dbdbbd;
+}
+.facebook-container {
+  display: flex;
+  align-items: center;
+}
+.facebook-icon {
+  color: #316ff6;
+  font-size: 24px;
+  margin-right: 6px;
+}
+.facebook-login-text {
+  font-family: "Roboto";
+  color: #316ff6;
+  font-size: 14px;
+  font-weight: bold;
+}
+.forget-text {
+  font-size: 14px;
+}
+.account-container {
+  display: flex;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #dbdbdb;
+  padding: 4px;
+}
+.account-text {
+  font-size: 14px;
+}
+.sign-in-text {
+  text-decoration: none;
+  color: blue;
+}
+.get-app-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.get-app-text {
+  font-size: 14px;
+}
+.buttons-container {
+  display: flex;
+}
+.button {
+  width: 100px;
+  background-color: transparent;
+  margin-right: 2px;
+  margin-left: 2px;
+  border: none;
+}
+.button-image {
+  width: 100%;
+}

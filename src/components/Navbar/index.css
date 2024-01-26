@@ -1,0 +1,85 @@
+.nav-bar-desktop-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background-color: white;
+  width: 20%;
+}
+.nav-items-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 10px;
+  padding: 10px;
+}
+.nav-logo {
+  width: 120px;
+}
+.nav-items-list {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+.nav-items-container {
+  display: flex;
+  align-items: center;
+}
+.profile-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.nav-icons {
+  font-size: 30px;
+  margin-right: 10px;
+}
+.nav-item-text {
+  font-family: "Roboto";
+}
+@media screen and (max-width: 738px) {
+  .nav-items-bg-container {
+    width: 100%;
+  }
+  .nav-list {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .nav-logo {
+    display: none;
+  }
+
+  .nav-item-text {
+    display: none;
+  }
+  .nav-items-list {
+    display: flex;
+  }
+  .more-icon {
+    display: none;
+  }
+}
+@media screen and (max-width: 348px) {
+  .nav-icons {
+    font-size: 20px;
+  }
+}
+.logout-container {
+  margin-bottom: 10px;
+}
+
+.logout-buttons-container {
+  display: flex;
+  align-items: center;
+}
+.more-icon {
+  background-color: transparent;
+  border: none;
+  margin-right: 0px;
+}
+.button {
+  border: none;
+  background-color: transparent;
+}
